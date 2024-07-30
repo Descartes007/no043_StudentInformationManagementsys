@@ -1,0 +1,69 @@
+@charset "UTF-8";
+html{
+	  height: 100%;
+      width: 100%;
+      overflow: hidden;
+      margin: 0;
+      padding: 0;
+      background-size: 100% 100%;
+      -moz-background-size: 100% 100%;
+}
+body {
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px auto;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container{
+	margin:0 auto;
+	width:450px;
+}
+/* ================================================================================== */
+/* 登录样式 */
+.login{
+	margin-top:100px;
+}
+form {
+    width: 450px;
+    height: 375px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    background-color: rgba(75, 81, 95, 0.3);
+    margin-top: 10%;
+    border-radius: 20px;
+    padding-top: 40px;
+}
+p input{
+	width:180px;
+	height:25px;
+     background-color: rgba(216, 191, 216, 0.5);
+     color: #f0edf3;
+     border-style: hidden;
+     border-radius: 5px;
+}
+.button{
+	width:99px;
+	height:35px;
+	border-color: cornsilk;
+    background-color: rgba(100, 149, 237, .7);
+	color: aliceblue;
+    border-style: hidden;
+    border-radius: 5px;
+	border-color: cornsilk;
+	margin-right:20px;
+	font-size: 16px;
+}
+a{
+    color: black;
+}
+a:hover{
+	text-decoration:1px;
+	color:#f7d3e6;
+}
+.register{
+	   font-size: 18px;
+}
+
