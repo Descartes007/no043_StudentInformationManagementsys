@@ -1,0 +1,125 @@
+@charset "UTF-8";
+html{
+	  height: 100%;
+      width: 100%;
+      overflow: hidden;
+      margin: 0;
+      padding: 0;
+}
+body {
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 1540px auto;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container{
+	margin:0 auto;
+	width:1300px;
+}
+.nav{
+	width:1200px;
+	height:80px;
+	margin-top:85px;
+	margin-left:50px;
+	margin-bottom:40px;
+	background-color: rgba(75, 81, 95, 0.3);
+}
+.title{
+	float:left;
+	margin-left:20px;
+	margin-top:5px;
+	font-family:黑体;
+	font-size:23px;
+}
+.navl{
+    	text-align:center;
+}
+.exit{
+	float:right;
+	margin-right:35px;
+    margin-top:30px;
+}
+.exit a{
+	text-decoration:none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #20538D;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: #4479BA;
+    color: #FFF;
+    font-family:微软雅黑;
+    font-size:16px;
+    padding: 6px 12px;
+}
+.navl{
+	float:left;
+	margin-left:30px;
+	margin-top:30px;   
+}
+.navl a{
+    text-decoration: none;
+    margin-left:28px;
+    font-size:18px;
+    font-family:楷体;
+    color:black;
+}
+.navl a:hover{
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    text-decoration: none;
+    margin-left:28px;
+    font-size:18px;
+    font-family:楷体;
+    color:#f7d3e6;;
+}
+
+.check{
+	width:800px;
+	margin:0 auto;
+	text-align:center;
+}
+.check input{
+	 width:180px;
+	 height:30px;
+     background-color: rgba(216, 191, 216, 0.5);
+     color: black;
+     border-style: hidden;
+     border-radius: 5px;
+     margin-right:25px;
+}
+.check form {
+    width: 450px;
+    height: 430px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    background-color: rgba(75, 81, 95, 0.3);
+    border-radius: 20px;
+    padding-top: 30px;
+}
+h2{
+	margin-top:1px;
+}
+.button{
+	width:90px;
+	height:40px;
+	border-color: cornsilk;
+    background: #4479BA;
+    color: #FFF;
+    border-style: hidden;
+    border-radius: 5px;
+	border-color: cornsilk;
+	margin-left:20px;
+	font-size: 16px;
+	font-family:微软雅黑;
+}
+.check p{
+	margin-bottom:19px;
+	font-family:宋体;
+	font-size:18px;
+	}

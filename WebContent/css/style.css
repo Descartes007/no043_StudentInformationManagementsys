@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* 重置样式表 */
+
+/* 重置内外边距 */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* 去除图片底部4px白边 */
+img{
+    vertical-align: middle;
+}
+/* 重置a标签的默认样式 */
+a{
+    text-decoration: none;
+    color: black;
+}
+html{
+	  height: 100%;
+      width: 100%;
+}
+body {
+    background-image: url(img/图片1.png);
+    background-repeat: no-repeat;
+    background-size: 1500px auto;
+      height: 100%;
+}
+form {
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    background-color: #f7d3e6;
+    margin-top: 10%;
+    border-radius: 20px;
+    padding-top: 40px;
+}
+

@@ -1,0 +1,199 @@
+@charset "UTF-8";
+html{
+	  height: 100%;
+      width: 100%;
+      overflow: hidden;
+      margin: 0;
+      padding: 0;
+}
+body {
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 1540px auto;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container{
+	margin:0 auto;
+	width:1300px;
+}
+h2{
+	font-family:微软雅黑;
+	font-size:30px;
+	margin-bottom:20px;
+}
+p input{
+	width:180px;
+	height:30px;
+     background-color: rgba(216, 191, 216, 0.5);
+     border-style: hidden;
+     border-radius: 5px;
+}
+.button{
+	width:90px;
+	height:30px;
+	border-color: cornsilk;
+    background: #4479BA;
+    color: #FFF;
+    border-style: hidden;
+    border-radius: 5px;
+	border-color: cornsilk;
+	margin-left:20px;
+	font-size: 16px;
+	font-family:微软雅黑;
+}
+.nav{
+	width:1200px;
+	height:80px;
+	margin-top:85px;
+	margin-bottom:48px;
+	margin-left:50px;
+	background-color: rgba(75, 81, 95, 0.3);
+}
+.title{
+	float:left;
+	margin-left:20px;
+	margin-top:5px;
+	font-family:黑体;
+	font-size:23px;
+}
+.navl{
+    	text-align:center;
+}
+.info{
+	width:1300px;
+	margin:0 auto;
+	margin-top:35px;
+}
+.infol{
+	float:left;
+	width:1000px;
+}
+.navl{
+	float:left;
+	margin-left:30px;
+	margin-top:30px;   
+}
+.navl a{
+    text-decoration: none;
+    margin-left:28px;
+    font-size:18px;
+    font-family:楷体;
+    color:black;
+}
+.navl a:hover{
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    text-decoration: none;
+    margin-left:28px;
+    font-size:18px;
+    font-family:楷体;
+    color:#f7d3e6;;
+}
+
+.navr a{
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #20538D;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: #4479BA;
+    color: #FFF;
+    padding: 6px 12px;
+    text-decoration: none;
+    margin-right:16px;
+    font-family:微软雅黑;
+}
+table
+     {
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align: center;
+    width:90%;
+    padding-top:50px;
+}
+table td, table th
+      {
+     border: 1px solid #cad9ea;
+     color: #666;
+     height: 45px;
+}
+table th
+      {
+      background-color: rgba(75, 81, 95, 0.3);
+      height:50px;
+}
+table tr:nth-child(odd)
+      {
+      background:#e9e9e9;
+}
+table tr:nth-child(even)
+      {
+      background:#fcf5f3;
+}
+.info a{
+	text-decoration:none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #20538D;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: #4479BA;
+    color: #FFF;
+    font-family:微软雅黑;
+    font-size:13px;
+    padding: 6px 12px;
+}
+ul{	text-align:center;}
+ul li{
+	list-style-type:none;
+	display: inline;
+	padding:3px;
+}
+li a{
+	text-decoration:none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #20538D;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: #4479BA;
+    color: #FFF;
+    font-family:微软雅黑;
+    font-size:13px;
+    padding: 6px 12px;
+}
+.page{
+	margin-top:40px;
+}
+.exit{
+	float:right;
+	margin-right:35px;
+    margin-top:30px;
+}
+.exit a{
+	text-decoration:none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #20538D;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: #4479BA;
+    color: #FFF;
+    font-family:微软雅黑;
+    font-size:16px;
+    padding: 6px 12px;
+}
+
